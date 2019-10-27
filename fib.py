@@ -1,7 +1,7 @@
-def fib2(n):
+def fib24(n):
 	a, b = 0, 1
 	while a < n:
 		print(a, end=‘ ’)
 		a, b = b, a+b
 	print()
-fib2(1000)
+fib24(1000)
